@@ -1,3 +1,6 @@
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
 function klikSaya() {
   alert("Halo! Terima kasih sudah klik tombol saya 😄");
 
