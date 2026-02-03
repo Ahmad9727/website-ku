@@ -35,3 +35,17 @@ footer {
   color: white;
   padding: 10px;
 }
+button {
+  transition: all 0.2s ease;
+}
+
+/* Saat disentuh / hover */
+button:hover {
+  transform: scale(1.08);
+  background-color: #16a34a;
+}
+
+/* Saat diklik */
+button:active {
+  transform: scale(0.95);
+}
