@@ -108,3 +108,11 @@ body.dark header {
 body.dark footer {
   background-color: #000 !important;
   }
+body.dark main,
+body.dark section,
+body.dark div {
+  background-color: #121212 !important;
+}
+main, section, div {
+  background-color: transparent;
+}
