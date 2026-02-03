@@ -93,3 +93,18 @@ body.dark section {
 body.dark footer {
   background-color: #000 !important;
 }
+/* === FORCE DARK MODE === */
+body.dark * {
+  background-color: #121212 !important;
+  color: #e5e5e5 !important;
+}
+
+/* Header tetap beda warna */
+body.dark header {
+  background-color: #1e1e1e !important;
+}
+
+/* Footer lebih gelap */
+body.dark footer {
+  background-color: #000 !important;
+  }
