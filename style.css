@@ -76,3 +76,20 @@ footer {
 .dark footer {
   background-color: #000;
 }
+/* DARK MODE GLOBAL */
+body.dark {
+  background-color: #121212 !important;
+  color: #e5e5e5 !important;
+}
+
+/* Paksa elemen utama ikut gelap */
+body.dark header,
+body.dark main,
+body.dark section {
+  background-color: #1e1e1e !important;
+}
+
+/* Footer */
+body.dark footer {
+  background-color: #000 !important;
+}
