@@ -50,3 +50,30 @@ footer {
 .btn:active {
   transform: scale(0.95);
 }
+/* Tombol dark mode */
+.dark-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #111;
+  color: white;
+  cursor: pointer;
+  z-index: 999;
+}
+
+/* Mode gelap */
+.dark {
+  background-color: #121212;
+  color: #e5e5e5;
+}
+
+.dark section {
+  background-color: #1e1e1e;
+}
+
+.dark footer {
+  background-color: #000;
+}
